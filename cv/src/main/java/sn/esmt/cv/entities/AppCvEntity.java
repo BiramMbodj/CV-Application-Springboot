@@ -27,10 +27,10 @@ public class AppCvEntity {
     private String address;
     @Column(length = 200, nullable = false)
     private String email;
-    @Enumerated(EnumType.STRING)
-    private Specialite specialite;
-    @Enumerated(EnumType.STRING)
-    private NiveauEtude niveauEtude;
+    @Column(length = 1000, nullable = false)
+    private String specialite;
+    @Column(length = 1000, nullable = false)
+    private String niveauEtude;
     @Column(length = 1000, nullable = false)
     private String exp_pro;
 }
