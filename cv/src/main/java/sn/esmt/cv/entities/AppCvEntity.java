@@ -1,5 +1,15 @@
 package sn.esmt.cv.entities;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+
 public class AppCvEntity {
     private Integer id;
     private String first_name;
