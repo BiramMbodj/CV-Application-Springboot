@@ -6,4 +6,5 @@ import sn.esmt.cv.entities.AppCvEntity;
 
 @Repository
 public interface AppCvRepository extends JpaRepository<AppCvEntity, Integer> {
+    AppCvEntity findById(int id);
 }
