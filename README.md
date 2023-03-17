@@ -1,3 +1,3 @@
-![capture_save](gifpostman_save_request)
-![capture2_save](gifpostman_save_request_2)
-![capture_swagger](gifswagger)
+![capture_save](captures/gifpostman_save_request.gif)
+![capture2_save](captures/gifpostman_sava_request_2.gif)
+![capture_swagger](captures/gifswagger.gif)
